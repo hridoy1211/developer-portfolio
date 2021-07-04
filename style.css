@@ -9,20 +9,22 @@ body{
 h1{
     font-size:50px;
 }
-/* p{
-    text-align: justify;
-} */
-section{
+
+h2{
+    font-size: 35px;
+}
+
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
 
-.sec-width{
+.half-width{
     width: 50%;
     padding-left:7%;
 }
 
-.sec-width img{
+.half-width img{
     width: 80%;
 }
 
@@ -49,4 +51,41 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+
+.exp-item{
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    
+}
+
+#baby-dev{
+    border-left:7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#full-dev{
+    border-left:7px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position-y: 80%;
+}
+
+.exp-item p{
+    text-align: justify;
+    padding-right: 4%;
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 5%;
 }
