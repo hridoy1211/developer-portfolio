@@ -1,91 +1,93 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin:0;
-    
 }
-.name{
+.name-orange{
     color: orange;
 }
 h1{
-    font-size:50px;
+    font-size: 50px;
 }
-
 h2{
-    font-size: 35px;
+    font-size: 30px;
 }
 
-.flexible-container{
-    display: flex;
+.flexible{
+    display:flex;
     margin-bottom: 150px;
 }
 
 .half-width{
-    width: 50%;
-    padding-left:7%;
+    width:50%;
+    padding-left:6%;
+    padding-right:2%;
+    
 }
-
 .half-width img{
-    width: 80%;
+    width:80%;
 }
 
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
-    padding: 10px 40px;
-    border-radius: 8px;
-    color: white;
+    background-image:linear-gradient(salmon,orange,tomato);
+    color:white;
     font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 7px;
 }
-.top-banner{
+
+.link-button:hover{
+    background-image: linear-gradient(cyan,blue);
+}
+
+.top-image{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
-    
+}
+.top-image p{
+    text-align: justify;
 }
 
-.dream-big p{
-    margin-right: 20%;
-}
-
-.dream-big{
+.middle-image{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
     
 }
 
-.exp-item{
-    width: 40%;
-    padding-left: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
-    box-shadow: 10px 10px 30px gray;
-    border-radius: 10px;
-    
+.middle-image p{
+    padding-right: 20%;
+    text-align: justify;
 }
 
-#baby-dev{
-    border-left:7px solid;
-    border-image: linear-gradient(blue,cyan);
-    border-image-slice: 1;
-}
-#full-dev{
-    border-left:7px solid;
-    border-image: linear-gradient(salmon,tomato);
-    border-image-slice: 1;
-}
-
-.experience-area{
+.bottom{
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
-    background-position-y: 80%;
+    background-position-y: 70%;
 }
 
-.exp-item p{
+.shadow{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding:2.5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
     text-align: justify;
-    padding-right: 4%;
+}
+
+#full-web-border{
+    border-left: 10px solid;
+    border-image: linear-gradient(red,orange);
+    border-image-slice: 1;
+}
+
+#baby-web-border{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
 }
 
 footer p{
     text-align: center;
-    margin-bottom: 5%;
 }
