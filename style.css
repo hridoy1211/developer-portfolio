@@ -9,9 +9,9 @@ body{
 h1{
     font-size:50px;
 }
-p{
+/* p{
     text-align: justify;
-}
+} */
 section{
     display: flex;
     margin-bottom: 150px;
@@ -19,7 +19,7 @@ section{
 
 .sec-width{
     width: 50%;
-    padding-left:5%;
+    padding-left:7%;
 }
 
 .sec-width img{
@@ -38,6 +38,10 @@ section{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
     
+}
+
+.dream-big p{
+    margin-right: 20%;
 }
 
 .dream-big{
